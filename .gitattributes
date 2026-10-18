@@ -1,0 +1,4 @@
+# Keep the release files byte-identical to upstream's assets on every checkout.
+main.js -text
+manifest.json -text
+styles.css -text

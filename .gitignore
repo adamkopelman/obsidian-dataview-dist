@@ -1,0 +1,11 @@
+# Only the upstream release files (and this repo's README/LICENSE) are tracked. Obsidian and the
+# plugin write their settings (data.json, which can hold API keys) and caches into this folder:
+# keep all of that local so it can never be committed or pushed by accident.
+/*
+!/.gitignore
+!/.gitattributes
+!/main.js
+!/manifest.json
+!/styles.css
+!/LICENSE
+!/README.md
